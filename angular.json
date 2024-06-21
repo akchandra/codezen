@@ -13,6 +13,11 @@
           "builder": "@angular-devkit/build-angular:ng-packagr",
           "options": {
             "project": "projects/ngx-codezen-ui/ng-package.json"
+            // "styles": [
+            //   {
+            //     "input": "node_modules/@progress/kendo-theme-default/dist/all.css"
+            //   }
+            // ]
           },
           "configurations": {
             "production": {
@@ -30,7 +35,13 @@
             "tsConfig": "projects/ngx-codezen-ui/tsconfig.spec.json",
             "polyfills": [
               "zone.js",
-              "zone.js/testing"
+              "zone.js/testing",
+              "@angular/localize/init"
+            ],
+            "styles": [
+              {
+                "input": "node_modules/@progress/kendo-theme-default/dist/all.css"
+              }
             ]
           }
         }
