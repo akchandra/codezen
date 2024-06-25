@@ -1,11 +1,12 @@
 import { Component, Input } from '@angular/core';
 import { InputsModule } from '@progress/kendo-angular-inputs';
-import { LabelModule } from '@progress/kendo-angular-label';
+import { FloatingLabelModule  } from '@progress/kendo-angular-label';
+import { LayoutModule } from "@progress/kendo-angular-layout";
 
 @Component({
   selector: 'codezen-textbox',
   standalone: true,
-  imports: [InputsModule, LabelModule],
+  imports: [InputsModule, FloatingLabelModule, LayoutModule ],
   templateUrl: './textbox.component.html',
   styleUrl: './textbox.component.scss'
 })
