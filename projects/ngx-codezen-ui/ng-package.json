@@ -4,11 +4,10 @@
   "lib": {
     "entryFile": "src/public-api.ts",
     "styleIncludePaths": [
-      "src/styles",
-      "../../node_modules/@progress/kendo-theme-default/dist"      
+      "src/styles"
     ]
   },
   "assets": [   
-      //"../../node_modules/@progress/kendo-theme-default/dist/all.css"
+      "src/styles"
   ]
 }

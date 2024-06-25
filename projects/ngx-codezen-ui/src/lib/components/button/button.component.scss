@@ -1,6 +1,7 @@
 @import 'variables';
 @import 'mixins';
 @import '../../../styles/styles.scss';
+@import '../../../../../../node_modules/@progress/kendo-theme-default/dist/all.css';
 
 .button {
     background-color:$primary-color;
