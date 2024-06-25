@@ -5,10 +5,10 @@
     "entryFile": "src/public-api.ts",
     "styleIncludePaths": [
       "src/styles",
-      "../../../node_modules/@progress/kendo-theme-default/dist/all.css"
+      "../../node_modules/@progress/kendo-theme-default/dist"      
     ]
   },
   "assets": [   
-    "src/lib/components/**/*.scss"
+      //"../../node_modules/@progress/kendo-theme-default/dist/all.css"
   ]
 }

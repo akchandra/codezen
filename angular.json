@@ -12,7 +12,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:ng-packagr",
           "options": {
-            "project": "projects/ngx-codezen-ui/ng-package.json"
+            "project": "projects/ngx-codezen-ui/ng-package.json"            
             // "styles": [
             //   {
             //     "input": "node_modules/@progress/kendo-theme-default/dist/all.css"

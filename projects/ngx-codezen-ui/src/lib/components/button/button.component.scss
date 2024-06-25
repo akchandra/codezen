@@ -1,5 +1,6 @@
 @import 'variables';
 @import 'mixins';
+@import '../../../styles/styles.scss';
 
 .button {
     background-color:$primary-color;
